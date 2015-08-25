@@ -43,9 +43,7 @@ When you type the URL into your browser, several things occur behind the scenes 
 
 Once you have typed the URL/web address into your browser, the first thing your browser does is;
 
-STEP 1:
-
-The browser breaks the URL into three parts:
+STEP 1:The browser breaks the URL into three parts:
 
 •	The protocol ("http ://")
 The protocol identifies the method (set of rules) by which the resource is transmitted.
