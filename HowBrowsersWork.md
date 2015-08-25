@@ -46,9 +46,12 @@ Once you have typed the URL/web address into your browser, the first thing your 
 STEP 1:
 
 The browser breaks the URL into three parts:
+
 •	The protocol ("http ://")
 The protocol identifies the method (set of rules) by which the resource is transmitted.
+
 •	The domain name ("www.google.com ")
+
 •	The file name ("howbrowserswork1.htm")
 
 STEP 2: DNS (Domain Name System) lookup
