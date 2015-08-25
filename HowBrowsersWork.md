@@ -6,9 +6,13 @@ WHAT YOU SHOULD KNOW BEFORE WE GET STARTED!
 
 A web browser, or simply ‘browser’, is a software application whose main function is to present the web resource you choose, by requesting it from the server and displaying it on the browser window. The resource format is usually HTML but can also be in PDF, image, video and more. 
 The location of the resource is specified by the user using a URL. When you navigate to a URL in the address bar you are making a “request” for the content at that URL.
-Common web browsers include; Microsoft Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari and Opera. Browsers' have user interfaces that have a lot in common with each other. The common user interface elements are:
+Common web browsers include; Microsoft Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari and Opera. Browsers' have user interfaces that have a lot in common with each other. 
+The common user interface elements are:
+
 •	Address bar for inserting the URL 
+
 •	Back , forward ,refresh and home buttons
+
 •	Bookmarking option
 
 LET’S GET STARTED!
@@ -20,11 +24,17 @@ It is important to have knowledge of the intricate structure of the browser in o
 The components of the browsers are:
 
 •	User interface: The user interface includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.
+
 •	Browser engine: The browser engine marshals actions between the UI (User Interface) and the rendering engine.
+
 •	Rendering engine: The rendering engine is responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.
+
 •	Networking: The networking handles network calls such as HTTP requests, using different implementations for different platforms behind a platform-independent interface.
+
 •	UI backend: The UI backend is used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.
+
 •	JavaScript engine: The JavaScript engine is used to parse and execute JavaScript code.
+
 •	Data storage: The data storage is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as; localStorage, IndexedDB, WebSQL and FileSystem.
 
 WHAT EXACTLY HAPPENS?
