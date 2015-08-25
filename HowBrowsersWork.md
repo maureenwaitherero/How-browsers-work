@@ -52,16 +52,16 @@ STEP 3: Request Page
 
 Once the browser has the IP address it sends an HTTP request to the web server at that address. HTTP stands for “Hypertext Transfer Protocol” and is used to facilitate requests from your client (the browser) and responses from the server asking for the file “howbrowserswork1.htm”. In this case the response is HTML.
 
-Step 4: HTML Parsing
+STEP 4: HTML Parsing
 
 The rendering engine starts getting the contents of the requested document from the networking layer. The rendering engine will start parsing the HTML document and turn the tags to Document Object Model (DOM) nodes in a tree called the "content tree" or the “DOM tree”.
 It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree – the render tree.  The render tree displays rectangles (that represent paragraphs, headlines, etc.) with a few visual attributes such as colour and size dimensions. These rectangles are displayed in order on the page.
 
-Step 5: Layout the Render tree
+STEP 5: Layout the Render tree
 
 After the construction of the render tree it goes through a "layout" process. This means giving each node the exact coordinates where it should appear on the screen.
 
-Step 6: Painting
+STEP 6: Painting
 
 The next stage is painting where the render tree will be traversed and each node will be painted using the UI backend layer and hence we are able to view the requested output.
 
