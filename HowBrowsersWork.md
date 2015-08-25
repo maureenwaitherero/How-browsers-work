@@ -28,11 +28,13 @@ The components of the browsers are:
 •	Data storage: The data storage is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as; localStorage, IndexedDB, WebSQL and FileSystem.
 
 WHAT EXACTLY HAPPENS?
+
 When you type the URL into your browser, several things occur behind the scenes to bring to bring you the desired output. 
 
 Once you have typed the URL/web address into your browser, the first thing your browser does is;
 
 STEP 1:
+
 The browser breaks the URL into three parts:
 •	The protocol ("http ://")
 The protocol identifies the method (set of rules) by which the resource is transmitted.
@@ -40,21 +42,26 @@ The protocol identifies the method (set of rules) by which the resource is trans
 •	The file name ("howbrowserswork1.htm")
 
 STEP 2: DNS (Domain Name System) lookup
+
 This means the DNS server translates a domain name into an IP address.
 A domain name is the unique name assigned to a website. When you build a website you also register a domain name. For a domain name to be assigned to a website, it first needs to be added to a DNS server.
 A DNS server is a large database containing domain name and its corresponding IP address. This means that URL you typed into the address bar maps to one or more IP addresses.  
 For example, one IP address for Google is 74.125.134.102. You can enter 74.125.134.102 in the address bar and it will show the contents at www.google.com.
 
 STEP 3: Request Page
+
 Once the browser has the IP address it sends an HTTP request to the web server at that address. HTTP stands for “Hypertext Transfer Protocol” and is used to facilitate requests from your client (the browser) and responses from the server asking for the file “howbrowserswork1.htm”. In this case the response is HTML.
 
 Step 4: HTML Parsing
+
 The rendering engine starts getting the contents of the requested document from the networking layer. The rendering engine will start parsing the HTML document and turn the tags to Document Object Model (DOM) nodes in a tree called the "content tree" or the “DOM tree”.
 It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree – the render tree.  The render tree displays rectangles (that represent paragraphs, headlines, etc.) with a few visual attributes such as colour and size dimensions. These rectangles are displayed in order on the page.
 
-Step 5: Layout the Render tree 
+Step 5: Layout the Render tree
+
 After the construction of the render tree it goes through a "layout" process. This means giving each node the exact coordinates where it should appear on the screen.
 
 Step 6: Painting
+
 The next stage is painting where the render tree will be traversed and each node will be painted using the UI backend layer and hence we are able to view the requested output.
 
