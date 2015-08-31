@@ -50,7 +50,7 @@ The protocol identifies the method (set of rules) by which the resource is trans
 
 •	The domain name ("www.google.com ")
 
-•	The file name ("howbrowserswork1.htm")
+•	The file name e.g. ("howbrowserswork1.htm")
 
 STEP 2: DNS (Domain Name System) lookup
 
