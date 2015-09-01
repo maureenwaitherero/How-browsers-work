@@ -17,7 +17,7 @@ The common user interface elements are:
 
 LET’S GET STARTED!
 
-Browser High Level Structure
+Browser's High Level Structure
 
 It is important to have knowledge of the intricate structure of the browser in order to understand the processes that happen at each stage.
 
