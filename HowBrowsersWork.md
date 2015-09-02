@@ -56,7 +56,7 @@ A domain name is the unique name assigned to a website. When you build a website
 
 A DNS server is a large database containing domain name and its corresponding IP address. This means that URL you typed into the address bar maps to one or more IP addresses.
 
-For example, one IP address for Google is 74.125.134.102. You can enter 74.125.134.102 in the address bar and it will show the contents at www.google.com.
+For example, one IP address for Google is 74.125.134.102. You can enter 74.125.134.102 in the address bar and it will show the contents at ("www.google.com").
 
     STEP 3: Request Page
 
