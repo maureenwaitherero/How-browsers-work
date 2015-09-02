@@ -1,4 +1,4 @@
-WHY SHOULD YOU CARE ABOUT HOW BROWSERS WORK?
+## WHY SHOULD YOU CARE ABOUT HOW BROWSERS WORK?##
 
 Knowing makes you a better web developer! Learning the internals of browser operations helps you make better decisions and know the justifications behind development best practices.
 
