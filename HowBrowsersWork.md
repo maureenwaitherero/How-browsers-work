@@ -1,10 +1,10 @@
-##LETS GET STARTED!##
+##LETS GET STARTED!
 
-####BROWSER'S HIGH LEVEL STRUCTURE####
+####BROWSER'S HIGH LEVEL STRUCTURE
 
 It is important to have knowledge of the intricate structure of the browser in order to understand the processes that happen at each stage.
 
-The components of the browsers are:
+_The components of the browsers are:_
 
   - **User interface**
 
