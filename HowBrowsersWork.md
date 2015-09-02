@@ -4,7 +4,7 @@
 
 It is important to have knowledge of the intricate structure of the browser in order to understand the processes that happen at each stage.
 
-_The components of the browsers are:_
+_**The components of the browsers are:**_
 
   - **User interface**
 
@@ -70,7 +70,7 @@ In this case the response is HTML.
 
 The rendering engine starts getting the contents of the requested document from the networking layer.
 
-The rendering engine will start parsing the HTML document and turn the tags to Document Object Model (DOM) nodes in a tree called the "content tree" or the “DOM tree”.
+The rendering engine will start parsing the HTML document and turn the tags to Document Object Model (DOM) nodes in a tree called the _**"content tree"**_ or the _**“DOM tree”.**_
 
 It will parse the style data, both in external CSS files and in style elements. The styling information together with visual instructions in the HTML will be used to create another tree –the render tree.
 
@@ -78,8 +78,8 @@ The render tree displays rectangles (that represent paragraphs, headlines, etc.)
 
     STEP 5: Layout the Render tree
 
-After the construction of the render tree it goes through a _"layout"_ process. This means giving each node the exact coordinates where it should appear on the screen.
+After the construction of the render tree it goes through a _**"layout"**_ process. This means giving each node the exact coordinates where it should appear on the screen.
 
     STEP 6: Painting
 
-The next stage is painting where the render tree will be traversed and each node will be painted using the UI backend layer and hence we are able to view the requested output.
+The next stage is **_painting_** where the render tree will be traversed and each node will be painted using the UI backend layer and hence we are able to view the requested output.
