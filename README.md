@@ -4,13 +4,13 @@ The basic process on how browsers work involves typing in a URL(uniform resource
 
 We will explore intrinsically what happens behind the scenes in your browser from when you type in the URL in the address bar until you see the requested page on the browser screen.
 
-####WHY SHOULD YOU CARE ABOUT HOW BROWSERS WORK?
+#### WHY SHOULD YOU CARE ABOUT HOW BROWSERS WORK?
 
   _Knowing makes you a better web developer!_
 
 Learning the internals of browser operations helps you make better decisions and know the justifications behind development best practices.
 
-####WHAT YOU SHOULD KNOW BEFORE WE GET STARTED!
+#### WHAT YOU SHOULD KNOW BEFORE WE GET STARTED!
 
 A web browser, or simply ‘browser’, is a software application whose main function is to present the web resource you choose by requesting it from the server and displaying it on the browser window.
 
